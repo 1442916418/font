@@ -29,7 +29,7 @@ const gs = transFont.getGlyph('氮气氦气空气氧气氩气气瓶实时数据�
 // 设置到空白字体里面
 font.setGlyph(gs)
 
-// 这样 font 导出的字体里面就有了「大榭石化安全监管中心」对应的 SVG 形状了
+// 这样 font 导出的字体里面就有了「安全监管中心」对应的 SVG 形状了
 font.output({
   path: './output/milky-term-cn-medium'
 })
@@ -39,7 +39,7 @@ font.output({
 // const transFont = fontCarrier.transfer('./assets/font/milky-term-cn-heavyitalic.ttf')
 
 // // 会自动根据当前的输入的文字过滤精简字体
-// transFont.min('大榭石化安全监管中心')
+// transFont.min('安全监管中心')
 
 // transFont.output({
 //   path: './output/'
