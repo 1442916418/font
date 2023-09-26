@@ -1,0 +1,23 @@
+{
+  "name": "font",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1442916418/font.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/1442916418/font/issues"
+  },
+  "homepage": "https://github.com/1442916418/font#readme",
+  "dependencies": {
+    "font-carrier": "^0.3.1"
+  }
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>源字体文件</title>
+    <style>
+      /* 主标题 */
+      @font-face {
+        font-family: 'Milky-Han-Mono-CN-Heavy-Italic';
+        src: url('./milky-term-cn-heavyitalic.ttf');
+      }
+
+      /* 小标题 */
+      @font-face {
+        font-family: 'Milky Han Mono CN';
+        src: url('./milky-term-cn-medium.ttf');
+      }
+
+      header {
+        font-size: 42px;
+        font-family: 'Milky-Han-Mono-CN-Heavy-Italic';
+        font-weight: normal;
+        color: #000;
+      }
+
+      .sub-title {
+        display: flex;
+        flex-direction: column;
+        font-size: 24px;
+        font-family: 'Milky Han Mono CN';
+        font-weight: 500;
+        color: #000;
+      }
+    </style>
+  </head>
+  <body>
+    <header>大榭石化安全监管中心</header>
+
+    <div class="sub-title">
+      <span>报警信息</span>
+      <span>气体用量分析</span>
+      <span>氮气</span>
+      <span>氦气</span>
+      <span>空气</span>
+      <span>氩气</span>
+      <span>气瓶实时数据</span>
+      <span>3号气瓶间</span>
+      <span>特气柜</span>
+      <span>气体余量统计</span>
+    </div>
+  </body>
+</html>
